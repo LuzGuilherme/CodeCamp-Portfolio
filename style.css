@@ -1,0 +1,137 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 25px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+hr {
+    border-top: 5px solid #21152D;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+#welcome-section {
+    text-align: center;
+    background-color: #2578B5;
+    padding: 30px 0px 30px 0px;
+}
+
+#avatar {
+    width: 20%;
+    height: auto;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+#avatar:hover {
+    transform: scale(1.1);
+}
+
+#projects {
+    background-color: #85B7C6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-title {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+    width: 80%;
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.project-img img {
+    width: 800px;
+    height: auto;
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-text button {
+    background-color: white;
+    color: black;
+    border: 2px solid #85B7C6;
+    padding: 10px 24px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.project-text button:hover {
+    background-color: #85B7C6;
+    color: white;
+    transform: scale(1.1);
+}
+
+#contact {
+    background-color: #2578B5;
+    padding: 20px;
+}
+
+#form-cont {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+}
+
+#email, #message {
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+#submit {
+    background-color: white;
+    color: black;
+    border: 2px solid #2578B5;
+    padding: 10px 24px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #2578B5;
+    color: white;
+    transform: scale(1.1);
+}

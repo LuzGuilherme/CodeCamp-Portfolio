@@ -1,11 +1,89 @@
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
 </head>
 <body>
+    <header>
+        <nav id="navbar">
+
+        </nav>
+    </header>
+
+    <section id="welcome-section">
+        <h1>Hey, I'm Guilherme</h1>
+        <h2>Designer & Front-end Developer</h2>
+        <a href=""><img id="avatar" src="Images/avatar.png" alt="Avatar picture"></a>
+    </section>
+
+    <section id="projects">
+        <h1>PORTFOLIO</h1>
+        <hr>
+        <div class="project-title">
+            <div class="project-img">
+                <img src="Images/PC Landing Page.png" alt="Landing page print screen">
+            </div>
+            <div class="project-text">
+                <h2>Product Landing Page</h2>
+                <p>freeCodeCamp project</p>
+                <a target="_blank" href="https://luzguilherme.github.io/Product-Landing-Page/"><button>Visit Site</button></a>
+            </div>
+        </div>
+
+        <div class="project-title">
+            <div class="project-img">
+                <img src="Images/PC JS.png" alt="Technical Documentation Page print screen">
+            </div>
+            <div class="project-text">
+                <h2>Technical Documentation </h2>
+                <p>freeCodeCamp project</p>
+                <a target="_blank" href="https://luzguilherme.github.io/Technical-Documentation-Page/"><button>Visit Site</button></a>
+            </div>
+        </div>
+
+        <div class="project-title">
+            <div class="project-img">
+                <img src="Images/PC Survey.png" alt="Survey print screen">
+            </div>
+            <div class="project-text">
+                <h2>FreeCodeCamp Survey</h2>
+                <p>freeCodeCamp project</p>
+                <a target="_blank" href="https://luzguilherme.github.io/CodeCamp-Survey/"><button>Visit Site</button></a>
+            </div>
+        </div>
+
+        <div class="project-title">
+            <div class="project-img">
+                <img src="Images/PC King.png" alt="Stephen King tribute page print screen">
+            </div>
+            <div class="project-text">
+                <h2>Stephen King Tribute Page</h2>
+                <p>freeCodeCamp project</p>
+                <a target="_blank" href="https://luzguilherme.github.io/Tribute-Page/"><button>Visit Site</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>GET IN TOUCH</h1>
+        <hr>
+        <div id="form-cont">
+            <form action="">
+                <label for="email">Email:</label><br>
+                <br>
+                <input type="text" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                <label for="message">Message:</label><br>
+                <br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </section>
     
 </body>
 </html>
